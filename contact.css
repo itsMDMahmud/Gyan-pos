@@ -1,0 +1,11 @@
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media (max-width: 576px) {
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+}

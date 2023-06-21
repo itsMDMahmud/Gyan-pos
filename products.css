@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.package-section{
+    margin: 50px 100px;
+}
+.package-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.package-section-txt{
+font-size: 25px;
+font-weight: 500;
+text-align: center;
+}
+.packages{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+.package-box{
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+.first-section{
+    margin: 20px;
+}
+.second-section{
+    margin: 20px;
+}
+.first-section h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-btn{
+    width: calc(100% - 40px);
+    margin: 0 20px;
+}
+.pricing{
+    font-size: 30px;
+    font-weight: bold;
+}
+.price-span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.svg{
+    width: 20px;
+}
+.wrong-icon{
+    width: 20px;
+}
+.svg, .wrong-icon {
+    margin-right: 10px;
+}
+.img-and-txt{
+    display: flex;
+    font-weight: 500;
+    color: grey;
+    margin-top: 10px;
+}
+.recommended{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+    top: -30px;
+}
+.come-and-visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 100px;
+
+}
+.come-and-visit h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+hr{
+    width: 25%;
+    margin: 30px 0;
+}
+@media (max-width: 576px) {
+    .package-section{
+        margin: 20px 30px;
+    }
+    .packages{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+
+    
+    }
+}
